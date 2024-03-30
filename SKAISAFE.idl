@@ -1,0 +1,6 @@
+struct SKAISAFE
+{
+    unsigned long index;
+    string message;
+    octet altura;
+};
