@@ -1,0 +1,9 @@
+/home/ata/Documentos/workspace_HelloWorld/CMakeFiles/SKAISAFE.dir
+/home/ata/Documentos/workspace_HelloWorld/CMakeFiles/SKAISAFEWrapper.dir
+/home/ata/Documentos/workspace_HelloWorld/CMakeFiles/SKAISAFEWrapper_swig_compilation.dir
+/home/ata/Documentos/workspace_HelloWorld/CMakeFiles/edit_cache.dir
+/home/ata/Documentos/workspace_HelloWorld/CMakeFiles/rebuild_cache.dir
+/home/ata/Documentos/workspace_HelloWorld/CMakeFiles/list_install_components.dir
+/home/ata/Documentos/workspace_HelloWorld/CMakeFiles/install.dir
+/home/ata/Documentos/workspace_HelloWorld/CMakeFiles/install/local.dir
+/home/ata/Documentos/workspace_HelloWorld/CMakeFiles/install/strip.dir
