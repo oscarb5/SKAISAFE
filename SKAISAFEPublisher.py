@@ -81,9 +81,13 @@ class Writer:
         data = SKAISAFE.SKAISAFE()
         data.message("SKAISAFE")
         data.index(self.index)
+        data.direccion(random.randint(0,360))
+        data.velocidad(random.randint(20,70))
         data.altura(random.randint(0,3))
         self.writer.write(data)
         print("Sending {message} : {index}".format(message=data.message(), index=data.index()))
+        print("Direccion : {direccion}º".format(direccion=data.direccion()))
+        print("Velocidad : {velocidad} m/s".format(velocidad=data.velocidad()))
         print("Altura : {altura}".format(altura=data.altura()))
         self.index = self.index + 1
 
@@ -98,7 +102,7 @@ class Writer:
 
     def run(self):
         self.wait_discovery()
-        for x in range(10) :
+        for x in range(random.randint(5,10)) :
             time.sleep(1)
             self.write()
         self.delete()

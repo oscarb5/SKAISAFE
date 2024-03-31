@@ -2,5 +2,7 @@ struct SKAISAFE
 {
     unsigned long index;
     string message;
+    short direccion;
+    short velocidad;
     octet altura;
 };

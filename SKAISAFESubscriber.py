@@ -46,6 +46,8 @@ class ReaderListener(fastdds.DataReaderListener):
         reader.take_next_sample(data, info)
 
         print("Received {message} : {index}".format(message=data.message(), index=data.index()))
+        print("Direccion : {direccion}º".format(direccion=data.direccion()))
+        print("Velocidad : {velocidad} m/s".format(velocidad=data.velocidad()))
         print("Altura : {altura}".format(altura=data.altura()))
 
 
